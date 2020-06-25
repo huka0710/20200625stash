@@ -4,4 +4,9 @@ class A{
 	A(int no){
 		this.no = no;
 	}
+	// 왜 이걸 요구 하셨나 함수.
+	public int getNo(){
+		return this.no;
+	}
+	
 }
